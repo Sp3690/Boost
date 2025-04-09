@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: rgba(2, 1, 3, 1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 13px;
+    padding-bottom: 13px;   
+}
+.container{
+    max-width: 1350px;
+}
+.navbar{
+    display: flex;
+    gap: 74px;
+    color: white;
+    justify-content: space-around;
+}
+.logo{
+    height: 38px;
+    width: 38px;
+}
+.elements{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 60px;
+    height: 42px;
+    width: 512px;
+    padding: 8px 40px 8px 40px;
+}
+.elements ul{
+    display: flex;
+    gap: 30px;
+}
+.elements ul li{
+    list-style: none;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 26px;
+    letter-spacing: -0.01%;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 0.6);
+}
+.nav_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.join{
+    display: inline-block;
+    width: 109px;
+    height: 30px;
+    padding: 2px 15px 2px 15px;
+    font-size: 14px;
+    font-family: 'intern' ;
+    color: #ffffff;
+    background-color: rgba(140, 69, 255, 0.4);
+    border: 1px solid #6a0dad; 
+    border-radius: 8px; 
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease
+}
